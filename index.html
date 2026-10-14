@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анастасія Лошкіна | Про себе</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f7fb;
+            color: #2b2b2b;
+            margin: 0;
+            padding: 30px 15px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            background-color: #ffffff;
+            max-width: 620px;
+            width: 100%;
+            padding: 28px;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #f0f0f5;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .main-photo {
+            width: 150px;
+            height: 180px;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 1px solid #dcdfe6;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 23px;
+            margin: 6px 0;
+            color: #1f1f2e;
+        }
+        .subtitle {
+            margin: 0;
+            color: #636674;
+            font-size: 15px;
+        }
+        h2 {
+            font-size: 17px;
+            color: #6f42c1;
+            border-bottom: 1px solid #ece8f6;
+            padding-bottom: 5px;
+            margin-top: 22px;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.55;
+            margin: 8px 0;
+            font-size: 15px;
+        }
+        .items-list {
+            list-style: none;
+            padding: 0;
+            margin: 8px 0;
+        }
+        .items-list li {
+            font-size: 15px;
+            line-height: 1.55;
+            margin-bottom: 8px;
+        }
+        .pet-block {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            background-color: #faf9fd;
+            border: 1px solid #ede8f7;
+            border-radius: 8px;
+            padding: 14px;
+            margin-top: 10px;
+        }
+        .cat-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 1px solid #d9d2ec;
+            flex-shrink: 0;
+        }
+        a {
+            color: #6f42c1;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 1px solid #f0f0f5;
+            font-size: 13px;
+            color: #7d8190;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="photo.jpg" alt="Моє фото" class="main-photo">
+        <h1>Лошкіна Анастасія Сергіївна</h1>
+        <p class="subtitle">Студентка групи КТ-25-1/9</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Про мене</h2>
+            <p>
+                Навчаюся у ВСП «Дніпровський фаховий коледж інженерії та педагогіки УДУНТ» за спеціальністю «Комп'ютерні технології в машинобудуванні».
+            </p>
+        </section>
+
+        <section>
+            <h2>Чим займаюся</h2>
+            <ul class="items-list">
+                <li>Пишу дослідницькі та наукові статті, навчаюся в науковій школі.</li>
+                <li>Беру участь у предметних олімпіадах і конкурсах.</li>
+                <li>Вивчаю верстку в HTML та CSS, роботу з мережами і терміналом Git.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Моя кішка</h2>
+            <div class="pet-block">
+                <img src="cat.jpg" alt="Кішка Зефірка" class="cat-photo">
+                <p>
+                    Це Зефірка. Вона завжди сидить поруч, коли я роблю домашні завдання, пишу тексти або код за ноутбуком.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Контакти</h2>
+            <p>GitHub: <a href="https://github.com/Reykilla" target="_blank">github.com/Reykilla</a></p>
+            <p>Пошта: <a href="mailto:anastasiialoshkina@college.udhtu.edu.ua">anastasiialoshkina@college.udhtu.edu.ua</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Лабораторна робота №6</p>
+    </footer>
+</div>
+
+</body>
+</html>
